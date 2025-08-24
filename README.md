@@ -1,18 +1,18 @@
 # chat-client-server
-cách chạy:
+cách chạy: (mở terminal)
 Bước 1: Chạy Server
-     python server.py
+nhập:     python server.py
 Server sẽ chạy ở 127.0.0.1:12345 (có thể chỉnh port trong code nếu cần).
 Hiện thông báo: Server listening on port 12345...
 
 Bước 2: Chạy Client
 Có 2 cách:
 Nếu muốn dùng console:
-    python client.py
+nhập:    python client.py
 → Gõ tin nhắn và thấy server trả về.
 
 Nếu muốn dùng GUI:
-    python gui.py
+nhập:    python gui.py
 → Cửa sổ chat xuất hiện, nhập tin nhắn, nhấn gửi.
 Mở nhiều lần gui.py (hoặc client.py) để giả lập nhiều người tham gia chat.
 
